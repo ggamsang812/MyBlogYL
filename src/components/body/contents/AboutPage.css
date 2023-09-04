@@ -1,0 +1,124 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../../../assets/fonts/Roboto-Regular.ttf") format("truetype");
+  /* Add other font formats here if available */
+  font-weight: normal;
+  font-style: normal;
+}
+
+.aboutpage {
+  /* align the contents inside this class to center of the screen */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-bottom: 150px;
+}
+
+.text-container {
+  text-align: center;
+  padding: 20px;
+  width: 558px;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+}
+
+.rainbow-text {
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff9900,
+    #33cc33,
+    #0099cc,
+    #9900cc,
+    #ff00ff
+  );
+  background-size: 200% 200%;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: rainbow-animation 4s linear infinite;
+  display: inline-block;
+  animation-delay: 1s; /* Delay for a wave effect */
+}
+
+@keyframes rainbow-animation {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 200% 200%;
+  }
+}
+
+.blue-gradient-text {
+  background: linear-gradient(45deg, #0000ff, #00ffff, #00ff00);
+  background-size: 200% 200%;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: gradient-animation 4s linear infinite;
+  display: inline-block;
+  animation-delay: 1s; /* Delay for a wave effect */
+}
+
+@keyframes blue-gradient-animation {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 200% 200%;
+  }
+}
+
+.red-gradient-text {
+  background: linear-gradient(
+    45deg,
+    #ff4545,
+    #ffa500,
+    #ffff00,
+    #ffa500,
+    #ff4545
+  );
+  background-size: 200% 200%;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: red-gradient-animation 4s linear infinite;
+  display: inline-block;
+  animation-delay: 1s; /* Delay for a wave effect */
+}
+
+@keyframes red-gradient-animation {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 200% 200%;
+  }
+}
+
+.fullstack-wrapper {
+  position: absolute;
+  top: 395px;
+  left: calc(50% - 450px);
+}
+
+.rockclimb-wrapper {
+  position: absolute;
+  top: 200px;
+  left: calc(50% + 230px);
+  z-index: -1;
+}
+
+.ironman-wrapper {
+  position: absolute;
+  top: 720px;
+  left: calc(50% - 260px);
+}
+
+.mcd-wrapper {
+  position: absolute;
+  top: 720px;
+  left: calc(50% + 20px);
+}

@@ -1,0 +1,40 @@
+.landing {
+  /* align the contents inside this class to center of the screen */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* class for hi svg image. Image should be 40px to the right from the center */
+.hi-image {
+  margin-left: 440px;
+  margin-bottom: -40px;
+  margin-top: 60px;
+  animation: rotateAnimation 2s infinite;
+  transform-origin: center center;
+}
+
+@keyframes rotateAnimation {
+  0% {
+    transform: rotate(-5deg); /* Start at 0 degrees rotation */
+  }
+  50% {
+    transform: rotate(16deg); /* Rotate to 90 degrees halfway through */
+  }
+  100% {
+    transform: rotate(-5deg); /* Back to 0 degrees at the end */
+  }
+}
+
+.stick-image {
+  margin-bottom: 80px;
+}
+
+.clickme-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}

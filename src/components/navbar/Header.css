@@ -4,7 +4,8 @@
 }
 
 .box .rectangle {
-  background-color: #f0f0f0;
+  background-color: rgba(240, 240, 240, 0.8); /* Adjust the background color and opacity as needed */
+  backdrop-filter: blur(10px); /* Adjust the blur amount as needed */
   height: 77px;
   width: 100%;
   left: 0;
@@ -14,16 +15,26 @@
   display: flex; /* Add this line */
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
+  z-index: 1000;
 }
 
 .box .rectangle .navbar-container {
   height: 77px;
-  width: 980px;  
+  width: 980px;
   position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* add margin to the left and right 22px */
   margin-left: 22px;
-  margin-right: 22px;  
+  margin-right: 22px;
+}
+
+
+@media (max-width: 1020px) and (min-width: 834px) {
+  .box .rectangle .navbar-container {
+    width: 100%; /* Set the width to 980px between 980px and 834px */
+    justify-content: space-around; /* Reduce spacing between items */
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

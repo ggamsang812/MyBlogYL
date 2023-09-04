@@ -1,0 +1,8 @@
+.calendarpage{
+    /* align the contents inside this class to center of the screen */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 988px;
+}
