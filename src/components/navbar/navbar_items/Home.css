@@ -1,0 +1,16 @@
+.home {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 1.19px;
+  padding: 1.19px;
+  position: relative;
+  height: 100%;
+}
+.home .image {
+  height: 54.62px;
+  /* put the image vertically center */
+  margin-top: 11.19px;
+  margin-bottom: 11.19px;  
+  position: center;
+  width: 74.37px;
+}

@@ -1,0 +1,29 @@
+.box {
+  height: 77px;
+  width: 100%;
+}
+
+.box .rectangle {
+  background-color: #f0f0f0;
+  height: 77px;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: fixed;
+  flex-shrink: 0;
+  display: flex; /* Add this line */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.box .rectangle .navbar-container {
+  height: 77px;
+  width: 980px;  
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* add margin to the left and right 22px */
+  margin-left: 22px;
+  margin-right: 22px;  
+}

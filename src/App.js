@@ -1,10 +1,11 @@
-import Header from './components/Header';
+import Header from './components/navbar/Header';
+import Body from './components/body/Body';
 
 function App() {
   return (
     <div>
       <Header></Header>
-      <h2>Let's get started!</h2>
+      <Body></Body>
     </div>
   );
 }
