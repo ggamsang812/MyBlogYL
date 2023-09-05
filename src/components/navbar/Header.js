@@ -13,9 +13,9 @@ function Header() {
         <div className="navbar-container">
           <Home></Home>
           <About></About>
-          <Calendar></Calendar>
           <Exp></Exp>
           <Skills></Skills>
+          <Calendar></Calendar>
         </div>
       </div>
     </div>

@@ -1,8 +1,27 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("../../../assets/fonts/Roboto-Regular.ttf") format("truetype");
+    /* Add other font formats here if available */
+    font-weight: normal;
+    font-style: normal;
+  }
+
 .calendarpage{
     /* align the contents inside this class to center of the screen */
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    height: 988px;
+    font-family: "Roboto", sans-serif;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.calendarpage h1{
+    /* align the contents inside this class to center of the screen */
+    width: 988px;
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+    font-weight: bold;
+    
 }
