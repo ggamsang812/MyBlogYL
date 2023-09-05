@@ -1,3 +1,7 @@
+.placeholder-home{
+  height: 5px;
+}
+
 .landing {
   /* align the contents inside this class to center of the screen */
   display: flex;

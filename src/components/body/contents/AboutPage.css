@@ -5,7 +5,9 @@
   font-weight: normal;
   font-style: normal;
 }
-
+.placeholder{
+  height: 20px;
+}
 .aboutpage {
   /* align the contents inside this class to center of the screen */
   display: flex;

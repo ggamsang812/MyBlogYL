@@ -1,16 +1,16 @@
-import "./Home.css"
-import logo from "../../../assets/home.svg"
+import { Link } from "react-scroll";
 
-function Home () {
-    return (
-        <div className="home">
-          <img
-            className="image"
-            alt="home"
-            src={logo}
-          />
-        </div>
-    )
+import "./Home.css";
+import logo from "../../../assets/home.svg";
+
+function Home() {
+  return (
+    <div className="home">
+      <Link to="homeComponent" smooth={true} duration={500}>
+        <img className="image" alt="home" src={logo} />
+      </Link>
+    </div>
+  );
 }
 
 export default Home;
