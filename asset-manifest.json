@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MyBlogYL/static/css/main.c324732c.css",
-    "main.js": "/MyBlogYL/static/js/main.5a6165ac.js",
+    "main.css": "/MyBlogYL/static/css/main.cc5c497f.css",
+    "main.js": "/MyBlogYL/static/js/main.21c1f0ac.js",
     "static/media/Roboto-Regular.ttf": "/MyBlogYL/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
     "static/media/fullstack.svg": "/MyBlogYL/static/media/fullstack.9c8fa9d674fab255ce7dfd097d43447a.svg",
     "static/media/rockc2.svg": "/MyBlogYL/static/media/rockc2.d41388e3f16a4efb01ae6de22aac3436.svg",
@@ -16,11 +16,11 @@
     "static/media/clickme3.svg": "/MyBlogYL/static/media/clickme3.0fcc822da2e6b39b4c6c31e0e541d797.svg",
     "static/media/stick.svg": "/MyBlogYL/static/media/stick.bb478cac4530851910c28e0018225a82.svg",
     "index.html": "/MyBlogYL/index.html",
-    "main.c324732c.css.map": "/MyBlogYL/static/css/main.c324732c.css.map",
-    "main.5a6165ac.js.map": "/MyBlogYL/static/js/main.5a6165ac.js.map"
+    "main.cc5c497f.css.map": "/MyBlogYL/static/css/main.cc5c497f.css.map",
+    "main.21c1f0ac.js.map": "/MyBlogYL/static/js/main.21c1f0ac.js.map"
   },
   "entrypoints": [
-    "static/css/main.c324732c.css",
-    "static/js/main.5a6165ac.js"
+    "static/css/main.cc5c497f.css",
+    "static/js/main.21c1f0ac.js"
   ]
 }
