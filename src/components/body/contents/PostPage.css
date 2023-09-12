@@ -1,9 +1,33 @@
-.postpage{
-    /* align the contents inside this class to center of the screen */
-    height: 700px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-family: "Roboto", sans-serif;
+.postpage {
+  max-width: 980px;
+  width: 100%;
+  margin: 0 auto;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  overflow-x: auto; /* Enable horizontal scroll when content exceeds the width */
+  white-space: nowrap; /* Prevent content from wrapping */
+}
+
+@media (max-width: 980px) {
+  .postpage {
+    width: 97%; /* Adjust to 100% width when the screen width is less than 980px */
+  }
+}
+
+.postmodal-container {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+  margin-bottom: 20px; /* Add margin to create space between modals */
+  width: 910px; /* Adjust the width as needed */
+}
+
+@media (max-width: 980px) {
+  .postmodal-container {
+    width: 97% /* Adjust width for smaller screens */
+  }
 }
