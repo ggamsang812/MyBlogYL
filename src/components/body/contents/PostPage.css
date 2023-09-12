@@ -1,0 +1,11 @@
+.postpage{
+    /* align the contents inside this class to center of the screen */
+    height: 980px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}

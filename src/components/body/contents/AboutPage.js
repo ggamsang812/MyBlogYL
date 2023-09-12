@@ -3,12 +3,25 @@ import fullstackimage from "../../../assets/aboutpage_assets/fullstack.svg";
 import rockclimbingimage from "../../../assets/aboutpage_assets/rockc2.svg";
 import ironmanimage from "../../../assets/aboutpage_assets/ironman.svg";
 import mcdimage from "../../../assets/aboutpage_assets/mcd.svg";
+import githubimage from "../../../assets/github_image.svg";
+import linkedinimage from "../../../assets/linkenin_imgage.svg";
 
 function AboutPage() {
+  const handleGitHubButtonClick = () => {
+    window.open("https://github.com/ggamsang812", "_blank");
+  };
+
+  const handleLinkedInButtonClick = () => {
+    window.open(
+      "https://www.linkedin.com/in/yunseong-lee-6115751a4/",
+      "_blank"
+    );
+  };
+
   return (
     <>
-    <div className="placeholder" id="aboutComponent"></div>
-      <div className="aboutpage" >
+      <div className="placeholder" id="aboutComponent"></div>
+      <div className="aboutpage">
         <div className="text-container">
           <h1>Who I am</h1>
 
@@ -47,6 +60,20 @@ function AboutPage() {
           </div>
           <div className="mcd-wrapper">
             <img src={mcdimage} width={153} alt="mcdimage"></img>
+          </div>
+        </div>
+
+        <div className="link-container">
+          <div className="githubimage-wrapper">
+            <button onClick={handleGitHubButtonClick}>
+              <img src={githubimage} width={153} alt="githubimage" />
+            </button>
+          </div>
+
+          <div className="linkedinimage-wrapper">
+            <button onClick={handleLinkedInButtonClick}>
+              <img src={linkedinimage} height={60} alt="linkedinimage" />
+            </button>
           </div>
         </div>
       </div>

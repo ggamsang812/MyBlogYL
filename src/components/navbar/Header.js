@@ -1,9 +1,8 @@
 import "./Header.css";
 import Home from "./navbar_items/Home";
 import About from "./navbar_items/About";
-import Calendar from "./navbar_items/Calendar";
-import Exp from "./navbar_items/Exp";
-import Skills from "./navbar_items/Skills";
+import Post from "./navbar_items/Post"
+import Proj from "./navbar_items/Proj"
 
 
 function Header() {
@@ -13,9 +12,8 @@ function Header() {
         <div className="navbar-container">
           <Home></Home>
           <About></About>
-          <Exp></Exp>
-          <Skills></Skills>
-          <Calendar></Calendar>
+          <Post></Post>
+          <Proj></Proj>
         </div>
       </div>
     </div>

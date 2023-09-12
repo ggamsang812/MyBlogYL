@@ -5,7 +5,7 @@
   font-weight: normal;
   font-style: normal;
 }
-.placeholder{
+.placeholder {
   height: 20px;
 }
 .aboutpage {
@@ -100,6 +100,9 @@
   }
 }
 
+.image-container {
+  height: 160px;
+}
 .fullstack-wrapper {
   position: absolute;
   top: 395px;
@@ -109,7 +112,7 @@
 .rockclimb-wrapper {
   position: absolute;
   top: 200px;
-  left: calc(50% + 230px);
+  left: calc(50% + 260px);
   z-index: -1;
 }
 
@@ -121,6 +124,47 @@
 
 .mcd-wrapper {
   position: absolute;
-  top: 720px;
-  left: calc(50% + 20px);
+  top: 730px;
+  left: calc(50% + 80px);
+}
+
+.link-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 250px;
+}
+
+.link-container .githubimage-wrapper {
+  position: relative;
+  left: calc(50% - 185px);
+}
+
+.githubimage-wrapper button {
+  background-color: transparent;
+  border: 10px solid #000000;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.githubimage-wrapper :hover {
+  background-color: #65e4b3;
+}
+
+.link-container .linkedinimage-wrapper {
+  position: relative;
+  right: calc(50% - 170px);
+}
+
+.linkedinimage-wrapper button {
+  background-color: transparent;
+  border: 10px solid #0089d8;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.linkedinimage-wrapper :hover {
+  background-color: #0089d8;
 }
