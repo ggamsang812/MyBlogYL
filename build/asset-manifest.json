@@ -1,26 +1,28 @@
 {
   "files": {
-    "main.css": "/MyBlogYL/static/css/main.cc5c497f.css",
-    "main.js": "/MyBlogYL/static/js/main.21c1f0ac.js",
+    "main.css": "/MyBlogYL/static/css/main.489a2886.css",
+    "main.js": "/MyBlogYL/static/js/main.5c960e1c.js",
     "static/media/Roboto-Regular.ttf": "/MyBlogYL/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
+    "static/media/WalterTurncoat-Regular.ttf": "/MyBlogYL/static/media/WalterTurncoat-Regular.e44844385433eb0f841c.ttf",
     "static/media/fullstack.svg": "/MyBlogYL/static/media/fullstack.9c8fa9d674fab255ce7dfd097d43447a.svg",
     "static/media/rockc2.svg": "/MyBlogYL/static/media/rockc2.d41388e3f16a4efb01ae6de22aac3436.svg",
-    "static/media/skills.svg": "/MyBlogYL/static/media/skills.576b542142f683a42361936112026bc9.svg",
-    "static/media/calendar.svg": "/MyBlogYL/static/media/calendar.45b19594d9797f0a824953a9f416add2.svg",
     "static/media/about.svg": "/MyBlogYL/static/media/about.9be6655b0287b2d3e2e44c753c909c7c.svg",
-    "static/media/exp.svg": "/MyBlogYL/static/media/exp.053a3be395615a3c7c25632e9479f039.svg",
+    "static/media/linkenin_imgage.svg": "/MyBlogYL/static/media/linkenin_imgage.7f862f74649be0a78a9ba35a2df29797.svg",
     "static/media/hi.svg": "/MyBlogYL/static/media/hi.2760b39da5469860d21178664de8964e.svg",
+    "static/media/post_image.svg": "/MyBlogYL/static/media/post_image.23fee40a282e3e0e7f68a5de865dd2df.svg",
+    "static/media/proj_image.svg": "/MyBlogYL/static/media/proj_image.3e5015172b60259c47842a9db5fd44a9.svg",
     "static/media/home.svg": "/MyBlogYL/static/media/home.e1b79c24689b9d8deb3dad7841ee8387.svg",
     "static/media/mcd.svg": "/MyBlogYL/static/media/mcd.699a088c5b62a2ff89a6d2db91dca39c.svg",
     "static/media/ironman.svg": "/MyBlogYL/static/media/ironman.7b9164ca443c18289dd1bd96c84b7f1e.svg",
+    "static/media/github_image.svg": "/MyBlogYL/static/media/github_image.01054aa6b3f543ed38779bb3ff40d14a.svg",
     "static/media/clickme3.svg": "/MyBlogYL/static/media/clickme3.0fcc822da2e6b39b4c6c31e0e541d797.svg",
     "static/media/stick.svg": "/MyBlogYL/static/media/stick.bb478cac4530851910c28e0018225a82.svg",
     "index.html": "/MyBlogYL/index.html",
-    "main.cc5c497f.css.map": "/MyBlogYL/static/css/main.cc5c497f.css.map",
-    "main.21c1f0ac.js.map": "/MyBlogYL/static/js/main.21c1f0ac.js.map"
+    "main.489a2886.css.map": "/MyBlogYL/static/css/main.489a2886.css.map",
+    "main.5c960e1c.js.map": "/MyBlogYL/static/js/main.5c960e1c.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc5c497f.css",
-    "static/js/main.21c1f0ac.js"
+    "static/css/main.489a2886.css",
+    "static/js/main.5c960e1c.js"
   ]
 }
