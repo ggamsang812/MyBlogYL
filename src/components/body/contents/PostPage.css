@@ -1,21 +1,54 @@
+#postComponentStart {
+  background-color: #bebebe; /* Use the desired shade of gray */
+  margin-top: 160px;
+}
+
 .postpage {
   max-width: 980px;
   width: 100%;
   margin: 0 auto;
   height: 600px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-family: "Roboto", sans-serif;
   overflow-x: auto; /* Enable horizontal scroll when content exceeds the width */
   white-space: nowrap; /* Prevent content from wrapping */
+  position: relative;
+}
+
+.postpage::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.postpage::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #bbbbbb;
+}
+
+.postpage::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #888888;
 }
 
 @media (max-width: 980px) {
   .postpage {
     width: 97%; /* Adjust to 100% width when the screen width is less than 980px */
   }
+}
+
+.postpage-container {
+  position: relative;
+  overflow: hidden;
+  max-width: 980px;
+  margin: 0 auto;
 }
 
 .postmodal-container {
@@ -30,4 +63,27 @@
   .postmodal-container {
     width: 97% /* Adjust width for smaller screens */
   }
+}
+
+.scroll-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.scroll-button.left {
+  left: 10px;
+}
+
+.scroll-button.right {
+  right: 10px;
 }

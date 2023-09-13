@@ -76,6 +76,7 @@ function AboutPage() {
             </button>
           </div>
         </div>
+        <div id="postComponent"></div>
       </div>
     </>
   );

@@ -18,7 +18,7 @@ function PostModal({ post }) {
       <div className="postmodal-preview" onClick={openModal}>
         <div className="postmodal-content">
           <h2>{post.title}</h2>
-          <p>{post.description}</p>
+          {/* <p>{post.description}</p> */}
           <p>{post.date}</p>
           {/* <img src={post.image} alt="Post Image" /> */}
         </div>
@@ -28,6 +28,8 @@ function PostModal({ post }) {
       </div>
 
       {isOpen && (
+        // TODO: Make this a separate component and pass in the post data
+        // TODO: Complete the styling of the modal
         <div className="modal">
           <div className="modal-content">
             <h2>Mini Pop-up</h2>
