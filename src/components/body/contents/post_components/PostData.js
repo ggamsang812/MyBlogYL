@@ -20,6 +20,12 @@ const initialPosts = [
     image: "path_to_image_2.jpg",
   },
   {
+    title: "AWS Summit New York 2023 - Attended.",
+    description: "This is the description of Post 2.",
+    date: "2023-07-26",
+    image: "path_to_image_2.jpg",
+  },
+  {
     title: "Learning Flutter and Dart.",
     description: "This is the description of Post 3.asdfasdfasdfasdfasdfdsf",
     date: "2023-05-27",
