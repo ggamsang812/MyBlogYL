@@ -2,6 +2,12 @@ const initialPosts = [
   
   // Add more posts as needed
   {
+    title: "Google Resume Workshop - Attended.",
+    description: "This is the description of Post 0.",
+    date: "2023-09-18",
+    image: "path_to_image_0.jpg",
+  },
+  {
     title: "MyBlogYL Project - Started.",
     description: "This is the description of Post 0.",
     date: "2023-09-02",
