@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+import Modal from "./Modal";
 import "./PostModal.css";
 
 function PostModal({ post }) {
@@ -27,17 +28,7 @@ function PostModal({ post }) {
         </div>
       </div>
 
-      {isOpen && (
-        // TODO: Make this a separate component and pass in the post data
-        // TODO: Complete the styling of the modal
-        <div className="modal">
-          <div className="modal-content">
-            <h2>Mini Pop-up</h2>
-            <p>This is the content of the mini pop-up.</p>
-            <button onClick={closeModal}>Close</button>
-          </div>
-        </div>
-      )}
+      {isOpen && <Modal post={post} closeModal={closeModal} />}
       {isOpen && <div className="overlay" onClick={closeModal}></div>}
     </div>
   );
