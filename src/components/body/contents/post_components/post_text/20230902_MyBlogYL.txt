@@ -1,0 +1,5 @@
+To practice my React.js knowledge and skilll, I'm starting a project to build my personal blog.
+
+This will be a good practice project to try what I've learned and will learn on online courses related to React.js. 
+
+Project Link => https://github.com/ggamsang812/MyBlogYL
