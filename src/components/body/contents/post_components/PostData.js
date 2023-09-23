@@ -12,23 +12,43 @@ const images = importAll(
   )
 );
 
+const textFiles = importAll(require.context("./post_text", false, /\.(txt)$/));
+
+// Function to read the content of a text file
+const readTextFile = (file) => {
+  const fileContent = textFiles[file];
+  if (fileContent) {
+    // Assuming fileContent is the path to the text file
+    // You can use a method like fetch or axios to read the content
+    return fetch(fileContent)
+      .then((response) => response.text())
+      .catch((error) => {
+        console.error(`Error reading text file ${file}:`, error);
+        return ""; // Return an empty string in case of an error
+      });
+  }
+  return ""; // Return an empty string if the file is not found
+};
+
 const initialPosts = [
   // Add more posts as needed
   {
     title: "Google Resume Workshop - Attended.",
-    description:
-      "This is the description of Post 0. dddddddddddddd\n dddddddddd dddddddddddd ddddddddddddddddddd dddddddddddddddddddddd \naaaaaaaaaa ddddddddddddddddd dddddddddddddd dddddddd",
+    description: `This is the description of Post 0. dddddddddddddd
+      dddddddddd dddddddddddd ddddddddddddddddddd ddddddddddddddddd
+      ddddd aaaaaaaaaa ddddddddddddddddd dddddddddddddd dddddddd
+      <a href='https://github.com/ggamsang812' target='_blank'>Visit Example</a>`,
     date: "2023-09-18",
   },
   {
     title: "MyBlogYL Project - Started.",
-    description:
-      "To practice my React.js knowledge and skill, I'm start a project to build my personal blog \nThis is a new line. <a href='https://github.com/ggamsang812' target='_blank'>Visit Example</a>",
+    description: `To practice my React.js knowledge and skill, I'm starting a project to build my personal blog 
+      <a href='https://github.com/ggamsang812' target='_blank'>Visit Example</a>`,
     date: "2023-09-02",
   },
   {
     title: "AWS Certified Solutions Architect - Associate Exam - Prep.",
-    description: "This is the description of Post 1.",
+    description: `${await readTextFile("./20230902_MyBlogYL.txt")}`,
     date: "2023-08-17",
   },
   {
