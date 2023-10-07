@@ -34,26 +34,25 @@ const initialPosts = [
   // Add more posts as needed
   {
     title: "Google Resume Workshop - Attended.",
-    description: `This is the description of Post 0. dddddddddddddd
-      dddddddddd dddddddddddd ddddddddddddddddddd ddddddddddddddddd
-      ddddd aaaaaaaaaa ddddddddddddddddd dddddddddddddd dddddddd
-      <a href='https://github.com/ggamsang812' target='_blank'>Visit Example</a>`,
+    description: `I thought this will be more like a live event where Google HR comes out explain about the better resume and maybe take questions.
+    It was just recorded video of Google HR talking about the resume and how to make it better which was not bad but I was expecting more.
+    I took some notes, so I will try to apply them to my resume.
+    <a href='https://careersonair.withgoogle.com/events/resume-workshop-recommendations-from-recruiters' target='_blank'>Record Here</a>`,
     date: "2023-09-18",
   },
   {
     title: "MyBlogYL Project - Started.",
-    description: `To practice my React.js knowledge and skill, I'm starting a project to build my personal blog 
-      <a href='https://github.com/ggamsang812' target='_blank'>Visit Example</a>`,
+    description: `${await readTextFile("./20230902_MyBlogYL.txt")}`,
     date: "2023-09-02",
   },
   {
     title: "AWS Certified Solutions Architect - Associate Exam - Prep.",
-    description: `${await readTextFile("./20230902_MyBlogYL.txt")}`,
+    description: `${await readTextFile("./20230817_AWSCSA_Prep.txt")}`,
     date: "2023-08-17",
   },
   {
     title: "Recovered. Back to Work!",
-    description: "This is the description of Post 2.",
+    description: `${await readTextFile("./20230816_Recovered.txt")}`,
     date: "2023-08-16",
   },
   {

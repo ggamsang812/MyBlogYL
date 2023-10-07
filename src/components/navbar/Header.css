@@ -38,3 +38,7 @@
     margin-right: auto;
   }
 }
+
+.box .rectangle .navbar-container .image:hover {
+  opacity: 0.5;
+}

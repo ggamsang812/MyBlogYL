@@ -1,11 +1,40 @@
-.projpage{
-    /* align the contents inside this class to center of the screen */
-    height: 980px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-family: "Roboto", sans-serif;
-    margin-top: 200px;
-    margin-bottom: 100px;
+.proj-placeholder{
+    padding-top: 80px;
+}
+
+.proj-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2px;
+}
+
+@media (min-width: 881px) {
+  .proj-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2px;
+  }
+}
+
+@media (max-width: 880px) {
+  .proj-container {
+    display: block;
+  }
+}
+
+.proj-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.proj-card img {
+  height: auto; /* Let the height adapt based on the image aspect ratio */
+  transition: opacity 0.3s ease-in-out;
+}
+
+.proj-card img:hover {
+  opacity: 0.5;
 }

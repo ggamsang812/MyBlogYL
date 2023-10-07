@@ -6,6 +6,7 @@ import PostModal from "./post_components/PostModal";
 function PostPage() {
   const [posts, setPosts] = useState(initialPosts);
   const postPageRef = useRef(null);
+  const scrollIntervalRef = useRef(null);
 
   const scrollLeft = () => {
     const container = postPageRef.current;
@@ -23,10 +24,28 @@ function PostPage() {
     });
   };
 
+  const handleScrollButtonPress = (scrollFunction) => {
+    scrollFunction(); // Initial scroll when the button is pressed
+
+    // Set up an interval to repeatedly scroll while the button is held down
+    scrollIntervalRef.current = setInterval(() => {
+      scrollFunction();
+    }, 200); // Adjust the interval speed as needed
+  };
+
+  const handleScrollButtonRelease = () => {
+    // Clear the interval when the button is released
+    clearInterval(scrollIntervalRef.current);
+  };
+
   return (
     <div id="postComponentStart">
       <div className="postpage-container">
-        <button className="scroll-button left" onClick={scrollLeft}>
+        <button
+          className="scroll-button left"
+          onMouseDown={() => handleScrollButtonPress(scrollLeft)}
+          onMouseUp={handleScrollButtonRelease}
+        >
           &lt;
         </button>
         <div className="postpage" ref={postPageRef}>
@@ -36,7 +55,11 @@ function PostPage() {
             ))}
           </div>
         </div>
-        <button className="scroll-button right" onClick={scrollRight}>
+        <button
+          className="scroll-button right"
+          onMouseDown={() => handleScrollButtonPress(scrollRight)}
+          onMouseUp={handleScrollButtonRelease}
+        >
           &gt;
         </button>
       </div>
