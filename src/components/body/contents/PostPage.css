@@ -47,7 +47,7 @@
 .postpage-container {
   position: relative;
   overflow: hidden;
-  max-width: 980px;
+  max-width: 80%;
   margin: 0 auto;
 }
 
