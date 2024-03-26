@@ -3,6 +3,7 @@ import "./Modal.css";
 import Prism from "prismjs";
 import "prismjs/themes/prism.css"; // Import Prism.js CSS file
 
+//https://prismjs.com/examples.html
 require("prismjs/components/prism-javascript");
 require("prismjs/components/prism-python");
 require("prismjs/components/prism-css");

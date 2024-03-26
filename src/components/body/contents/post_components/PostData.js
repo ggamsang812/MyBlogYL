@@ -39,8 +39,13 @@ const initialPosts = [
   },
   {
     title: "Python - Mutability and Object References",
-    description: `${await readTextFile("./20240317_Python.txt")}`,
+    description: `${await readTextFile("./20240317_PythonMutability.txt")}`,
     date: "03/17/2024"
+  },
+  {
+    title: "Python - Using OR, AND in an IF-statement",
+    description: `${await readTextFile("./20240311_PythonIfOrAnd.txt")}`,
+    date: "03/11/2024"
   },
   {
     title: "Google Resume Workshop - Attended.",
@@ -69,7 +74,7 @@ const initialPosts = [
     title: "AWS Summit New York 2023 - Attended.",
     description: "This is the description of Post 2.",
     date: "07/26/2023",
-    image: images["./20230919_AWS_Summit.jpg"], // Use the imported image
+    image: images["./20230919_AWS_Summit.jpg"],
   },
   {
     title: "Learning Flutter and Dart.",
