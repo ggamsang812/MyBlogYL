@@ -31,7 +31,12 @@ const readTextFile = (file) => {
 };
 
 const initialPosts = [
-  // Add more posts as needed
+  // Add more posts as needed  
+  {
+    title: "VSCode - Toggle Word Wrap",
+    description: `${await readTextFile("./20240325_VSCodeWordWrap.txt")}`,
+    date: "03/25/2024"
+  },
   {
     title: "Python - Mutability and Object References",
     description: `${await readTextFile("./20240317_Python.txt")}`,
@@ -43,48 +48,48 @@ const initialPosts = [
     It was just recorded video of Google HR talking about the resume and how to make it better which was not bad but I was expecting more.
     I took some notes, so I will try to apply them to my resume.
     <a href='https://careersonair.withgoogle.com/events/resume-workshop-recommendations-from-recruiters' target='_blank'>Record Here</a>`,
-    date: "09-18-2023",
+    date: "09/18/2023",
   },
   {
     title: "MyBlogYL Project - Started.",
     description: `${await readTextFile("./20230902_MyBlogYL.txt")}`,
-    date: "09-02-2023",
+    date: "09/02/2023",
   },
   {
     title: "AWS Certified Solutions Architect - Associate Exam - Prep.",
     description: `${await readTextFile("./20230817_AWSCSA_Prep.txt")}`,
-    date: "08-17-2023",
+    date: "08/17/2023",
   },
   {
     title: "Recovered. Back to Work!",
     description: `${await readTextFile("./20230816_Recovered.txt")}`,
-    date: "08-16-2023",
+    date: "08/16/2023",
   },
   {
     title: "AWS Summit New York 2023 - Attended.",
     description: "This is the description of Post 2.",
-    date: "07-26-2023",
+    date: "07/26/2023",
     image: images["./20230919_AWS_Summit.jpg"], // Use the imported image
   },
   {
     title: "Learning Flutter and Dart.",
     description: `This is a sample description.`,
-    date: "05-27-2023",
+    date: "05/27/2023",
   },
   {
     title: "AWS Certified Cloud Practitioner Exam - Passed!",
     description: "This is the description of Post 4.",
-    date: "05-26-2023",
+    date: "05/26/2023",
   },
   {
     title: "AWS Certified Cloud Practitioner Exam - Prep.",
     description: "This is the description of Post 5.",
-    date: "04-26-2023",
+    date: "04/26/2023",
   },
   {
     title: "Finally, Learning How to Use GitHub. No More Avoiding GitHub!",
     description: "This is the description of Post 6.",
-    date: "04-25-2023",
+    date: "04/25/2023",
   },
 ];
 

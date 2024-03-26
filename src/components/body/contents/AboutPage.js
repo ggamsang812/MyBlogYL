@@ -26,7 +26,7 @@ function AboutPage() {
           <h1>Who I am</h1>
 
           <p>
-            <span className="rainbow-text">Software Developer</span> who wants
+            <span className="rainbow-text">Software Engineer</span> who wants
             to make the world a better place. Make changes in people’s lives.
             Bring technologies to people who need them. Most importantly,{" "}
             <span className="rainbow-text">Fix Problems</span>!

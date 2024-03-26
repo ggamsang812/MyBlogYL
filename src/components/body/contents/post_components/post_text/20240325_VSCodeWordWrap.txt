@@ -1,0 +1,3 @@
+Quick note on how to toogle word wrap in VSCode. 
+Setting => Command Palette(Ctrl+Shift+P) => Toggle Word Wrap 
+<a href='https://www.geeksforgeeks.org/how-to-enable-disable-word-wrap-in-visual-studio-code/' target='_blank'>How to Enable Word Wrap in VSCode</a>
