@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MyBlogYL/static/css/main.89dd45dd.css",
-    "main.js": "/MyBlogYL/static/js/main.5f782948.js",
+    "main.css": "/MyBlogYL/static/css/main.c6e75c9a.css",
+    "main.js": "/MyBlogYL/static/js/main.f92c1c97.js",
     "static/media/20230919_AWS_Summit.jpg": "/MyBlogYL/static/media/20230919_AWS_Summit.36c8c53146ca215436e5.jpg",
     "static/media/Roboto-Regular.ttf": "/MyBlogYL/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
     "static/media/WalterTurncoat-Regular.ttf": "/MyBlogYL/static/media/WalterTurncoat-Regular.e44844385433eb0f841c.ttf",
@@ -22,15 +22,18 @@
     "static/media/github_image.svg": "/MyBlogYL/static/media/github_image.7ec2e026c133f7e0cd178a8aa1ab2a7b.svg",
     "static/media/clickme3.svg": "/MyBlogYL/static/media/clickme3.9417ce72f7bfc47a5c7448cb92a86888.svg",
     "static/media/stick.svg": "/MyBlogYL/static/media/stick.0bb04636a531fc763bc4a99d4500dca7.svg",
+    "static/media/20240317_PythonMutability.txt": "/MyBlogYL/static/media/20240317_PythonMutability.76af9d93462d6b8bac8a.txt",
+    "static/media/20240311_PythonIfOrAnd.txt": "/MyBlogYL/static/media/20240311_PythonIfOrAnd.4ced7eac6a33d7d8874d.txt",
     "static/media/20230817_AWSCSA_Prep.txt": "/MyBlogYL/static/media/20230817_AWSCSA_Prep.a0dcb531e34018d3a64c.txt",
     "index.html": "/MyBlogYL/index.html",
     "static/media/20230816_Recovered.txt": "/MyBlogYL/static/media/20230816_Recovered.ac99abcbc57408f4d79e.txt",
-    "static/media/20230902_MyBlogYL.txt": "/MyBlogYL/static/media/20230902_MyBlogYL.9dff0e0201eea76a2f49.txt",
-    "main.89dd45dd.css.map": "/MyBlogYL/static/css/main.89dd45dd.css.map",
-    "main.5f782948.js.map": "/MyBlogYL/static/js/main.5f782948.js.map"
+    "static/media/20230902_MyBlogYL.txt": "/MyBlogYL/static/media/20230902_MyBlogYL.9fa50b72e57b6a83e830.txt",
+    "static/media/20240325_VSCodeWordWrap.txt": "/MyBlogYL/static/media/20240325_VSCodeWordWrap.88794765b1d354d586ad.txt",
+    "main.c6e75c9a.css.map": "/MyBlogYL/static/css/main.c6e75c9a.css.map",
+    "main.f92c1c97.js.map": "/MyBlogYL/static/js/main.f92c1c97.js.map"
   },
   "entrypoints": [
-    "static/css/main.89dd45dd.css",
-    "static/js/main.5f782948.js"
+    "static/css/main.c6e75c9a.css",
+    "static/js/main.f92c1c97.js"
   ]
 }
