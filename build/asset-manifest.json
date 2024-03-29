@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MyBlogYL/static/css/main.c6e75c9a.css",
-    "main.js": "/MyBlogYL/static/js/main.31ef4c9f.js",
+    "main.css": "/MyBlogYL/static/css/main.f017fb0d.css",
+    "main.js": "/MyBlogYL/static/js/main.55695fc1.js",
     "static/media/20230919_AWS_Summit.jpg": "/MyBlogYL/static/media/20230919_AWS_Summit.36c8c53146ca215436e5.jpg",
     "static/media/Roboto-Regular.ttf": "/MyBlogYL/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
     "static/media/WalterTurncoat-Regular.ttf": "/MyBlogYL/static/media/WalterTurncoat-Regular.e44844385433eb0f841c.ttf",
@@ -31,11 +31,11 @@
     "static/media/20230902_MyBlogYL.txt": "/MyBlogYL/static/media/20230902_MyBlogYL.9fa50b72e57b6a83e830.txt",
     "static/media/20240325_VSCodeWordWrap.txt": "/MyBlogYL/static/media/20240325_VSCodeWordWrap.88794765b1d354d586ad.txt",
     "static/media/20240328_AWS_IAM_Org.txt": "/MyBlogYL/static/media/20240328_AWS_IAM_Org.e914b045b3cf306e9eac.txt",
-    "main.c6e75c9a.css.map": "/MyBlogYL/static/css/main.c6e75c9a.css.map",
-    "main.31ef4c9f.js.map": "/MyBlogYL/static/js/main.31ef4c9f.js.map"
+    "main.f017fb0d.css.map": "/MyBlogYL/static/css/main.f017fb0d.css.map",
+    "main.55695fc1.js.map": "/MyBlogYL/static/js/main.55695fc1.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6e75c9a.css",
-    "static/js/main.31ef4c9f.js"
+    "static/css/main.f017fb0d.css",
+    "static/js/main.55695fc1.js"
   ]
 }
