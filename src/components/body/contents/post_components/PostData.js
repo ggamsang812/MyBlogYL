@@ -1,9 +1,10 @@
 const importAll = (r) => {
-  let images = {};
-  r.keys().forEach((key) => (images[key] = r(key)));
-  return images;
+  let fileReferences = {};
+  r.keys().forEach((key) => (fileReferences[key] = r(key)));
+  return fileReferences;
 };
 
+// example: images["./20230919_AWS_Summit.jpg"]
 const images = importAll(
   require.context(
     "./post_images", // Specify the directory where your images are located
@@ -32,6 +33,11 @@ const readTextFile = (file) => {
 
 const initialPosts = [
   // Add more posts as needed  
+  {
+    title: "AWS - Setting Up AWS IAM Identity Center and AWS Organizations",
+    description: `${await readTextFile("./20240328_AWS_IAM_Org.txt")}`,
+    date: "03/28/2024"
+  },
   {
     title: "VSCode - Toggle Word Wrap",
     description: `${await readTextFile("./20240325_VSCodeWordWrap.txt")}`,
@@ -90,12 +96,7 @@ const initialPosts = [
     title: "AWS Certified Cloud Practitioner Exam - Prep.",
     description: "This is the description of Post 5.",
     date: "04/26/2023",
-  },
-  {
-    title: "Finally, Learning How to Use GitHub. No More Avoiding GitHub!",
-    description: "This is the description of Post 6.",
-    date: "04/25/2023",
-  },
+  }
 ];
 
 export default initialPosts;
