@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MyBlogYL/static/css/main.c6e75c9a.css",
-    "main.js": "/MyBlogYL/static/js/main.f92c1c97.js",
+    "main.js": "/MyBlogYL/static/js/main.31ef4c9f.js",
     "static/media/20230919_AWS_Summit.jpg": "/MyBlogYL/static/media/20230919_AWS_Summit.36c8c53146ca215436e5.jpg",
     "static/media/Roboto-Regular.ttf": "/MyBlogYL/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
     "static/media/WalterTurncoat-Regular.ttf": "/MyBlogYL/static/media/WalterTurncoat-Regular.e44844385433eb0f841c.ttf",
@@ -11,6 +11,7 @@
     "static/media/rockc2.svg": "/MyBlogYL/static/media/rockc2.3fa7584228277d85cb0565ab50337eee.svg",
     "static/media/CSMechVet.jpg": "/MyBlogYL/static/media/CSMechVet.81447d50a722e9b5f144.jpg",
     "static/media/CSDevCal.jpg": "/MyBlogYL/static/media/CSDevCal.2ae35e6b5a262fa20a6a.jpg",
+    "static/media/asdf.png": "/MyBlogYL/static/media/asdf.44ce6e33e0054cfac620.png",
     "static/media/about.svg": "/MyBlogYL/static/media/about.78223f860a7d1eb04cc25ced14c43bcf.svg",
     "static/media/linkenin_imgage.svg": "/MyBlogYL/static/media/linkenin_imgage.c6a5512142a49ec5d931f1ec170b4cb0.svg",
     "static/media/hi.svg": "/MyBlogYL/static/media/hi.e8ade0e368822fbc819ea6a85d7608f7.svg",
@@ -29,11 +30,12 @@
     "static/media/20230816_Recovered.txt": "/MyBlogYL/static/media/20230816_Recovered.ac99abcbc57408f4d79e.txt",
     "static/media/20230902_MyBlogYL.txt": "/MyBlogYL/static/media/20230902_MyBlogYL.9fa50b72e57b6a83e830.txt",
     "static/media/20240325_VSCodeWordWrap.txt": "/MyBlogYL/static/media/20240325_VSCodeWordWrap.88794765b1d354d586ad.txt",
+    "static/media/20240328_AWS_IAM_Org.txt": "/MyBlogYL/static/media/20240328_AWS_IAM_Org.e914b045b3cf306e9eac.txt",
     "main.c6e75c9a.css.map": "/MyBlogYL/static/css/main.c6e75c9a.css.map",
-    "main.f92c1c97.js.map": "/MyBlogYL/static/js/main.f92c1c97.js.map"
+    "main.31ef4c9f.js.map": "/MyBlogYL/static/js/main.31ef4c9f.js.map"
   },
   "entrypoints": [
     "static/css/main.c6e75c9a.css",
-    "static/js/main.f92c1c97.js"
+    "static/js/main.31ef4c9f.js"
   ]
 }
